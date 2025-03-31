@@ -44,11 +44,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .heading_container h2 {
@@ -66,8 +66,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .sub_page .hero_area {
@@ -110,7 +110,7 @@ a:focus {
 .btn:focus {
   outline: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -176,17 +176,17 @@ a:focus {
 
 .custom_nav-container .navbar-toggler[aria-expanded="true"] {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .custom_nav-container .navbar-toggler[aria-expanded="true"] span {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .custom_nav-container .navbar-toggler[aria-expanded="true"] span::before, .custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   top: 0;
 }
 
@@ -195,8 +195,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .quote_btn-container a {
@@ -213,22 +213,22 @@ a:focus {
 /* slider section */
 .slider_section {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
   background-color: #f9fafa;
 }
 
 .slider_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section #customCarousel {
@@ -282,17 +282,17 @@ a:focus {
 .slider_section .detail-box .btn-box .btn2 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #6bb7be;
+  background-color: #14545a; /* 修改這裡：從原本的#6bb7be改為更深的藍色 */
   color: #ffffff;
   border-radius: 0;
-  border: 1px solid #6bb7be;
+  border: 1px solid #14545a; /* 邊框顏色也需一致修改 */
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .slider_section .detail-box .btn-box .btn2:hover {
   background-color: transparent;
-  color: #6bb7be;
+  color: #14545a; /* hover顏色也需一致修改 */
 }
 
 .slider_section .img-box img {
@@ -303,16 +303,16 @@ a:focus {
   position: unset;
   margin: 0;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 45px;
 }
 
 .slider_section .carousel-indicators li {
-  background-color: #6bb7be;
+  background-color: #14545a; /* 修改這裡：同樣使用更深的藍色 */
   width: 12px;
   height: 12px;
   border-radius: 100%;
@@ -337,11 +337,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 275px;
   padding: 25px;
 }
@@ -365,8 +365,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .furniture_section .box .detail-box .price_box .price_heading {
@@ -374,13 +374,14 @@ a:focus {
 }
 
 .furniture_section .box .detail-box .price_box .price_heading span {
-  color: #6bb7be;
+  color: #14545a; /* 修改這裡：使用更深的藍色 */
 }
 
 .furniture_section .box .detail-box .price_box a {
-  color: #6bb7be;
+  color: #14545a; /* 修改這裡：從原本的#6bb7be改為更深的藍色 */
   text-transform: uppercase;
   font-size: 15px;
+  font-weight: bold; /* 增加字體粗細增強可讀性 */
 }
 
 .about_section {
@@ -389,8 +390,8 @@ a:focus {
 
 .about_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about_section .img-box img {
@@ -405,36 +406,36 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #6bb7be;
+  background-color: #14545a; /* 修改這裡：使用更深的藍色 */
   color: #ffffff;
   border-radius: 0;
-  border: 1px solid #6bb7be;
+  border: 1px solid #14545a; /* 邊框顏色也需一致修改 */
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #6bb7be;
+  color: #14545a; /* hover顏色也需一致修改 */
 }
 
 .blog_section .heading_container {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .blog_section .heading_container h2::before {
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .blog_section .box {
   margin-top: 55px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 }
 
 .blog_section .box .img-box {
@@ -461,23 +462,23 @@ a:focus {
 .blog_section .box .detail-box a {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #6bb7be;
+  background-color: #14545a; /* 修改這裡：使用更深的藍色 */
   color: #ffffff;
   border-radius: 0;
-  border: 1px solid #6bb7be;
+  border: 1px solid #14545a; /* 邊框顏色也需一致修改 */
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .blog_section .box .detail-box a:hover {
   background-color: transparent;
-  color: #6bb7be;
+  color: #14545a; /* hover顏色也需一致修改 */
 }
 
 .client_section .heading_container {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .client_section .box {
@@ -485,17 +486,17 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 45px;
   padding: 35px 25px;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .client_section .box .img-box {
   border-radius: 100%;
-  border: 10px solid #6bb7be;
+  border: 10px solid #14545a; /* 修改這裡：使用更深的藍色 */
   margin-right: 25px;
   min-width: 175px;
   max-width: 175px;
@@ -512,11 +513,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .client_section .box .detail-box .name {
@@ -529,7 +530,7 @@ a:focus {
 }
 
 .client_section .box .detail-box .name h6 {
-  color: #6bb7be;
+  color: #14545a; /* 修改這裡：使用更深的藍色 */
   font-size: 20px;
 }
 
@@ -538,8 +539,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .client_section .carousel-control-prev,
@@ -552,7 +553,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 12px;
   background-position: center;
-  background-color: #6bb7be;
+  background-color: #14545a; /* 修改這裡：使用更深的藍色 */
   background-position: center;
   border-radius: 100%;
   margin: 0 2.5px;
@@ -591,7 +592,7 @@ a:focus {
   outline: none;
   color: #101010;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
 }
 
 .contact_section .form_container input::-webkit-input-placeholder {
@@ -619,17 +620,17 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 12px 55px;
-  background-color: #6bb7be;
+  background-color: #14545a; /* 修改這裡：使用更深的藍色 */
   color: #ffffff;
   border-radius: 0px;
-  border: 1px solid #6bb7be;
+  border: 1px solid #14545a; /* 邊框顏色也需一致修改 */
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .contact_section .form_container button:hover {
   background-color: transparent;
-  color: #6bb7be;
+  color: #14545a; /* hover顏色也需一致修改 */
 }
 
 .contact_section .map_container {
@@ -639,16 +640,16 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   padding: 0;
 }
 
 .contact_section .map_container .map {
   height: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .contact_section .map_container .map #googleMap {
@@ -667,27 +668,27 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 25px 0;
   text-align: center;
 }
 
 .info_section .contact_nav a {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #ffffff;
 }
 
@@ -714,13 +715,13 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .info_section .info_links .info_links_menu a {
   color: #ffffff;
   -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  flex-basis: 50%;
 }
 
 .info_section .info_links .info_links_menu a:hover, .info_section .info_links .info_links_menu a.active {
@@ -732,10 +733,10 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .info_section .info_post .post_box .img-box {
@@ -746,14 +747,14 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #ffffff;
   -ms-flex-preferred-size: calc(33% - 10px);
-      flex-basis: calc(33% - 10px);
+  flex-basis: calc(33% - 10px);
   padding: 10px;
   margin: 5px;
 }
@@ -785,17 +786,17 @@ a:focus {
 .info_section .info_form button {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #6bb7be;
+  background-color: #14545a; /* 修改這裡：使用更深的藍色 */
   color: #ffffff;
   border-radius: 0px;
-  border: 1px solid #6bb7be;
+  border: 1px solid #14545a; /* 邊框顏色也需一致修改 */
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .info_section .info_form button:hover {
   background-color: transparent;
-  color: #6bb7be;
+  color: #14545a; /* hover顏色也需一致修改 */
 }
 
 .info_section .info_form .social_box {
@@ -811,16 +812,16 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-radius: 5px;
   width: 45px;
   height: 45px;
-  border: 1px solid #6bb7be;
-  color: #6bb7be;
+  border: 1px solid #14545a; /* 修改這裡：使用更深的藍色 */
+  color: #14545a; /* 修改這裡：使用更深的藍色 */
   font-size: 18px;
   margin-right: 10px;
 }
@@ -844,5 +845,28 @@ a:focus {
 
 .footer_section p a {
   color: inherit;
+}
+
+/* 添加這個新的選擇器來處理"Read More"和其他按鈕 */
+a.btn, button.btn,
+.blog_section .box .detail-box a,
+button {
+  background-color: #14545a !important; /* 使用更深的藍色 */
+  color: #ffffff !important;
+  border: 1px solid #14545a !important;
+  font-weight: bold !important;
+}
+
+a.btn:hover, button.btn:hover,
+.blog_section .box .detail-box a:hover,
+button:hover {
+  background-color: transparent !important;
+  color: #14545a !important;
+}
+
+/* 確保所有的BUY NOW按鈕文字顏色足夠深 */
+a {
+  color: #14545a; /* 全站連結使用更深的顏色 */
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
